@@ -24,3 +24,13 @@ print_none()
 def print_name_born(name, born):
     print("My name is {}, and i was born in {}".format(name, born))
 print_name_born("Shichao Wang", "1986")
+
+# create a new function
+def degrees_celsius_to_fahrenheit():
+    print("Please enter degrees celsius in next blank line:")
+    degrees_celsius = int(input())
+    fahrenheit = degrees_celsius * 1.8 + 32
+    print("The degrees celsius is {0} C, and the fahrenheit is {1} F".format(degrees_celsius, fahrenheit))
+
+degrees_celsius_to_fahrenheit()
+
