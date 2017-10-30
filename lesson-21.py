@@ -1,15 +1,18 @@
 def add(a, b):
     print("Adding {} + {}".format(a, b))
+    return a + b
 
 def subtract(a, b):
     print("Subtracting {} - {}".format(a, b))
+    return a - b
 
 def multiply(a, b):
     print("Multiplying {} * {}".format(a, b))
+    return a * b
 
 def divide(a, b):
     print("Dividing {} / {}".format(a, b))
-    return a / b
+    return int(a / b)
 
 print("Let's do some math with just functions!")
 
