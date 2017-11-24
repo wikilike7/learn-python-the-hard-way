@@ -32,7 +32,8 @@ happy_bday.sing_me_a_song()
 bulls_on_parade.sing_me_a_song()
 
 
-class City(object):
+class City(object):  # declare a class
+    # constructor
     def __init__(self, people, cars):
         self.people = people
         self.cars = cars
@@ -43,3 +44,16 @@ class City(object):
 
 result = City(1000, 200)
 result.print_people_cars()
+
+
+# delcare class
+class A(object):
+    def __init__(self):
+        self.x = 'Hello'
+
+    def method_a(self, foo):
+        print(self.x + ' ' + foo)
+
+
+a = A()
+print(a.method_a('zibba!'))
