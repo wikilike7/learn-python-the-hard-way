@@ -7,9 +7,10 @@ class x(object):
     def __init__(self, j):
         self.j = j
 
-    def m(self,  m):
-        print('j : m')
+    def m(self, j):
+        print(j)
 
 
 foo = x()
-foo.m(jike)
+foo.m(j)
+foo.k = q
