@@ -77,3 +77,31 @@ crouse = Salmon()
 # is-a
 harry = Halibut()
 
+
+# creat a class
+class Student(object):
+    # declare a specia method __init__
+    def __init__(self, name, score):
+        self.name = name
+        self.score = score
+
+    # declare a function
+    def print_score(self):
+        print('%s: %s' % (self.name, self.score))
+
+    # declare another function
+    def get_grade(self, score):
+        if self.score >= 90:
+            return 'A'
+        elif self.score >=80:
+            return 'B'
+        else:
+            return 'C'
+
+
+# create a instance name bart and take two argument 'Bart Simpson', 59
+bart = Student('Bart Simpson', 59)
+# bart call the method print_score
+bart.print_score()
+
+print(bart.get_grade(100))
