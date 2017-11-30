@@ -22,6 +22,7 @@ class PapayaWhip:
 
 class Fib:
     def __init__(self, max):
+        self.max = max
 
 
 
